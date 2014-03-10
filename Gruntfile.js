@@ -221,7 +221,8 @@ module.exports = function (grunt) {
                         '<%= config.dist %>/styles/{,*/}*.css',
                         '<%= config.dist %>/images/{,*/}*.*',
                         '<%= config.dist %>/styles/fonts/{,*/}*.*',
-                        '<%= config.dist %>/*.{ico,png}'
+                        '<%= config.dist %>/*.{ico,png}',
+                        '<%= config.dist %>/CNAME'
                     ]
                 }
             }
@@ -329,7 +330,8 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.webp',
                         '{,*/}*.html',
-                        'styles/fonts/{,*/}*.*'
+                        'styles/fonts/{,*/}*.*',
+                        'CNAME'
                     ]
                 }]
             },
