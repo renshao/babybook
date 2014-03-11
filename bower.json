@@ -2,6 +2,10 @@
   "name": "babybook",
   "private": true,
   "dependencies": {
+    "bootstrap-sass": [
+      "bower_components/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss",
+      "bower_components/bootstrap-sass/vendor/assets/javascripts/bootstrap.js"
+    ]
   },
   "devDependencies": {}
 }
