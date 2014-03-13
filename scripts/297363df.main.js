@@ -1,1 +1,0 @@
-function saveEmail(){var a=document.querySelector("#email").value;a&&emailsRef.push({email:a,timestamp:Firebase.ServerValue.TIMESTAMP})}var dataRef=new Firebase("https://burning-fire-8925.firebaseio.com"),emailsRef=dataRef.child("emails");
