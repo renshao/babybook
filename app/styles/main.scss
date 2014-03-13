@@ -3,6 +3,7 @@
 // endbower
 
 $green: #7fb24f;
+$dark-green: darken($green, 10%);
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
@@ -28,6 +29,7 @@ body {
 
 .beta-invite {
   margin-bottom: 2em;
+  min-height: 150px;
 
   .beta-invite-desc {
     margin-bottom: 1em;
@@ -36,6 +38,13 @@ body {
   #request-invite-btn {
     font-size: 15px;
     @include button-variant(#fff, $green, $green); 
+  }
+
+  #thankyou {
+    border: 2px dashed $dark-green;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: $dark-green;
   }
 }
 
