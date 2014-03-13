@@ -16,6 +16,12 @@ $(document).ready(function() {
   $('#request-invite-btn').click(function() {
     saveEmail();
   });
+
+  $('#drop-us-a-line').tooltip({
+    trigger: 'click',
+    html: true,
+    container: '.footer'
+  });
 });
 
 function saveEmail() {
