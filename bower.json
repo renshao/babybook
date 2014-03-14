@@ -2,7 +2,6 @@
   "name": "babybook",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3",
     "jquery": "2.1.0"
   },
   "devDependencies": {}
